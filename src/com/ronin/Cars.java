@@ -1,10 +1,10 @@
 package com.ronin;
 
 public class Cars {
-    private String brand;
-    private String color;
-    private String gearbox;
-    private int top_speed;
+    final String brand;
+    final String color;
+    final String gearbox;
+    final int top_speed;
 
     public Cars(String brand, String color, String gearbox, int top_speed) {
         this.brand = brand;
