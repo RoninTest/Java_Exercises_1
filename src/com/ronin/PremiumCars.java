@@ -7,9 +7,6 @@ public class PremiumCars extends Cars{
 
     private boolean insurance;
 
-
-
-
     public PremiumCars(String brand, String color, String gearbox, int top_speed) {
         super(brand, color, gearbox, top_speed);
 
@@ -24,6 +21,9 @@ public class PremiumCars extends Cars{
         if (client_insurance_choose.equals("Y")){
             System.out.println("Thank you , you have %10 discount");
             insurance = true;
+
+
+
 
         }else if (client_insurance_choose.equals("N")) {
             System.out.println("Thank you, you didn't choose insurance. You don't have a discount.");

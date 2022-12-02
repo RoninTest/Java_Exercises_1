@@ -19,6 +19,12 @@ public class Main {
         System.out.println("*******************************");
         normalCars2.showCarInfo();
 
+        System.out.println("************* Normal Car Price ******************");
+        NormalCars_Price normalCars_price=new NormalCars_Price();
+        normalCars_price.calculateCar(33.000,0.10);
+        PremiumCars_Price premiumCars_price=new PremiumCars_Price();
+        premiumCars_price.calculateCar(120.000,0.50);
+
 
 
     }

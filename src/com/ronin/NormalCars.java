@@ -1,7 +1,5 @@
 package com.ronin;
 
-import java.security.PublicKey;
-
 public class NormalCars extends Cars{
 
     public NormalCars(String brand, String color, String gearbox, int top_speed) {
@@ -13,5 +11,7 @@ public class NormalCars extends Cars{
     public void showCarInfo() {
         super.showCarInfo();
     }
+
+
 
 }
