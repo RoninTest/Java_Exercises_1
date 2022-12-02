@@ -10,4 +10,10 @@ public class NormalCars_Price extends Prices{
 
         return super.calculateCar(price_car,special_consumption_tax);
     }
+
+    @Override
+    public double calculateCar(double price_car, double special_consumption_tax, double extra_luxury_tax) {
+        return 0;
+    }
+
 }

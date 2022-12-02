@@ -23,8 +23,11 @@ public class Main {
         NormalCars_Price normalCars_price=new NormalCars_Price();
         normalCars_price.calculateCar(33.000,0.10);
         PremiumCars_Price premiumCars_price=new PremiumCars_Price();
-        premiumCars_price.calculateCar(120.000,0.50);
+        premiumCars_price.calculateCar(120.000,0.50,0.10);
 
+
+        Cars cars=new PremiumCars("Nissan / Qasqai","orange","manual",250);
+        cars.showCarInfo();
 
 
     }
